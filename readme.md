@@ -1,6 +1,6 @@
-##Snake and Ladders Game Program Design
+<h1>Snake and Ladders Game Program Design</h1>
 
-##Game Initialization
+<h3>Game Initialization</h3>
 
 Players: The game starts with multiple players. Store their names, e.g., "Player 1," "Player 2," etc. You can allow the players to input their names or use default names.
 
@@ -10,7 +10,7 @@ Game Board: Create the game board, which includes the positions for snakes and l
 
 Game Status: Initialize the game status as "In progress."
 
-##Game Loop
+<h3>Game Loop</h3>
 
 Player's Turn: The current player rolls a die (usually a six-sided die) to get a random number from 1 to 6. This number represents the number of positions they will move.
 
@@ -22,7 +22,7 @@ Switch Players: Switch the current player to the next player.
 
 Check for Draw: Optionally, you can implement a rule that if the game continues for too long without a winner, it ends in a draw.
 
-##Emerging Requirements
+<h3>Emerging Requirements</h3>
 
 Store Player Names: Allow players to input their names and store them for a personalized game experience.
 
